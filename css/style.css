@@ -1,0 +1,225 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Montserrat, sans-serif;
+    text-decoration: none;
+}
+
+/* .container-info{
+    display: flex;
+    flex-direction: row;
+}
+.container-fotos-imovel{
+    display: flex;
+    flex-direction: row;
+
+}
+.container-images-coluna{
+    flex-direction: column;
+}
+.container-images-linha{
+    flex-direction: row;
+} */
+
+body{
+    margin: 25px;
+}
+h1{
+    font-family:Montserrat, sans-serif;
+
+}
+.imagem-estrela{
+    width: 15px;
+    height: 15px;
+}
+.container-info-gerais{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    display: flex;
+    gap: 1em;
+    margin-bottom: 15px;
+    
+}
+.container-imagens-imovel{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 190px 190px;
+    gap: 5px;
+    text-align: center;
+    transition: .5;
+}
+
+.container-imagens-imovel img{
+    width: 100%;
+    height: 100%;object-fit: cover;
+    border-radius: 8px;
+    align-items: center;
+}
+.container-imagens-imovel img:first-child{
+    grid-row: 1/3;
+} 
+.imagens-imovel{
+    opacity: 1;
+	transition: .3s ease-in-out;
+}
+.imagens-imovel:hover{
+   opacity: .5;
+}
+
+.container-descricao{
+    margin-top: 1.5em;
+}
+.container-info-finais{
+    display: flex;
+    margin: 15px 10vw;
+    justify-content: space-between;
+    padding: 8px;
+    gap: 5vw;
+    box-sizing:border-box;
+}
+.container-lugar-oferece{
+    width: 180px;
+    text-align: center;
+    gap: 5px;
+    
+}
+.container-alugar{
+    border: solid 1px black;
+    width: 270px;
+    height: 9em;
+    text-align: center;
+    justify-content: center;
+    min-height: 5em;
+    border-radius: 7px
+}
+.container-alugar h2{
+    margin: 12px;
+}
+.container-botao-disponibilidade{
+    background-image: linear-gradient(#fd56c3,#c30b03);
+    border-radius: 8px;
+    height: 1em;
+    padding: 0.7em;
+    margin: 8px;
+    min-height: 3.5em;
+    
+}
+.container-botao-disponibilidade a{
+    padding: 1em;
+    justify-content: center;
+}
+/* .conatinerr-info-finais{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.container-lugar-oferece{
+    border: solid black 1px;
+    width: 180px;
+    text-align: center;
+    margin-top: 12px;
+    gap: 5px;
+}
+.container-alugar{
+    border: solid black 1px;
+    align-items: center;
+    width: 15%;
+    padding: 2px;
+}
+
+.container-botao-disponibilidade{
+    background-image: linear-gradient(#fd56c3,#c30b03);
+    border-radius: 8px;
+    padding: 6px;
+    text-align: center;
+    transition: .5;
+    text-decoration-style: none;
+    align-items: center;
+    width: 150px;
+} */
+
+.container-botao-disponibilidade a{
+   color: #fff;
+    
+}
+.container-botao-disponibilidade:hover{
+    background-color: rgb(255, 0, 0);
+    background-image: linear-gradient(#dc0290,#e80c00);
+    cursor: pointer;
+
+}
+
+/* .container-info-finais{
+    display: flex;
+    gap: 5vw;
+    margin-top: 30px;
+    text-align: center;
+    width: 70%;
+    
+}
+.container-lugar-oferece{
+    border: solid black 1px;
+    justify-content: center;
+}
+.container-icones{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    gap: 20px;
+}
+.container-{
+    width: 60em;
+     max-height: 200px; 
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2vw; 
+   
+}
+ .container-botao h2{
+    width: 30%;
+} 
+.container-comprar{
+    border: solid 1px black;
+    
+        float: right;
+        width: 250px;
+        height: 100px;
+        overflow: hidden;
+}
+.container-botao-disponibilidade{
+    text-align: center;
+    background-image: linear-gradient(#fd56c3,#c30b03);
+    border-radius: 8px;
+    padding: 1vw;
+    margin-top: 30px;
+    transition: .5;
+   
+}
+.container-botao-disponibilidade a{
+    color: white;
+}
+.container-botao-disponibilidade:hover{
+    background-color: rgb(255, 0, 0);
+    background-image: linear-gradient(#dc0290,#e80c00);
+    cursor: pointer;
+
+} */
+
+/* .container-botao-disponibilidade{
+    border: solid black;
+    border-style: none;
+    background-image: linear-gradient(#fd56c3,#c30b03);
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding: 1vw; 
+    width: 30%;
+
+
+} */
+
